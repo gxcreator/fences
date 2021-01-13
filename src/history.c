@@ -200,7 +200,7 @@ history_clear(struct history *history)
 /*
  * Can we undo?
  */
-inline gboolean
+gboolean
 history_can_undo(struct history *history)
 {
 	return (history->index > -1);
@@ -210,7 +210,7 @@ history_can_undo(struct history *history)
 /*
  * Can we redo?
  */
-inline gboolean
+gboolean
 history_can_redo(struct history *history)
 {
 	return (history->index < history->last);

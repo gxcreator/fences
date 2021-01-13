@@ -135,7 +135,7 @@ linechange_check_tiles(struct board *board, struct line *line_changed)
 /*
  * Perform change in game state
  */
-inline void
+void
 make_line_change(struct board *board, struct line_change *change)
 {
 	struct line *line_changed;

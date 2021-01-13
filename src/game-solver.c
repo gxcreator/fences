@@ -20,6 +20,8 @@
 
 #include "gamedata.h"
 #include "game-solver.h"
+#include "game-solver.h"
+
 
 
 

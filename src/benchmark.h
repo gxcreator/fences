@@ -19,8 +19,8 @@
 #define __INCLUDED_BENCHMARK_H__
 
 
-inline void fences_benchmark_start(void);
-inline double fences_benchmark_stop(void);
+void fences_benchmark_start(void);
+double fences_benchmark_stop(void);
 
 
 #endif

@@ -337,7 +337,7 @@ solve_reset_solution(struct solution *sol)
 /*
  * Set line ON
  */
-inline void
+void
 solve_set_line_on(struct solution *sol, struct line *lin)
 {
 	int id=lin->id;
@@ -358,7 +358,7 @@ solve_set_line_on(struct solution *sol, struct line *lin)
 /*
  * CROSS line out
  */
-inline void
+void
 solve_set_line_cross(struct solution *sol, struct line *lin)
 {
 	int id=lin->id;

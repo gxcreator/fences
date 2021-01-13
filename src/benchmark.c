@@ -26,7 +26,7 @@ static struct timeval start_time;
 /*
  * Start benchmark
  */
-inline void
+void
 fences_benchmark_start(void)
 {
 	started= TRUE;
@@ -37,7 +37,7 @@ fences_benchmark_start(void)
 /*
  * Stop benchmark and return time
  */
-inline double
+double
 fences_benchmark_stop(void)
 {
 	struct timeval end_time;
